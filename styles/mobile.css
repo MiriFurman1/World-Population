@@ -1,0 +1,7 @@
+@media(max-width:1200px) {
+    #myChart{
+        min-width:70vw;
+        min-height: 60vh;
+        }
+}
+

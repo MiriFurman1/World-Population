@@ -8,6 +8,7 @@
 body{
     background-color: #B5CCD5;
     color: #407076;
+    width:100%;
 }
 
 .container{
@@ -42,7 +43,8 @@ button:hover{
 }
 
 #myChart{
-width:50vw;
+min-width:50vw;
+min-height: 50vh;
 }
 
 .countriesBtnDiv{

@@ -80,7 +80,7 @@ getDataMakeChartAfterClick()
 
     let getDataOfRegion= async (region)=>{ //!get data for region
     let data=await fetchDataCountry(`https://restcountries.com/v3.1/region/${region}`) //get the data for specific region
-    console.log(data);
+    
     data.forEach(country => {
     countries.push(country.name.common)
     population.push(country.population)
@@ -104,7 +104,7 @@ getDataMakeChartAfterClick()
             }
             let country=x.target.innerHTML
 
-            console.log(allCitiesData);
+            
             let citiesData = allCitiesData.find(x=>x.data[0].country==country)
             
             
@@ -132,7 +132,7 @@ getDataMakeChartAfterClick()
             })
             
            
-            console.log(allCitiesData);
+            
             setSpinner(false)
         }
   
