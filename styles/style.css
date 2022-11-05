@@ -42,9 +42,12 @@ button:hover{
 }
 
 #myChart{
-width:60vw;
+width:50vw;
 }
 
+.countriesBtnDiv{
+    padding: 5vw;
+}
 .countriesBtnDiv button{
     padding: 5px;
     margin: 5px;
